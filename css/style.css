@@ -1,0 +1,87 @@
+:root {
+  --main-color: #222222;
+  --accent-color: #fed136;
+  --paragraf-color: #777777;
+  --logo-font: "Bilbo Swash Caps", cursive;
+  --main-font: "Montserrat", sans-serif;
+  --paragraf-font: "Roboto", sans-serif;
+}
+/* reset style */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+li {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.list {
+  list-style: none;
+}
+
+.font-style {
+  font-style: normal;
+}
+
+.logo {
+  color: var(--accent-color);
+  font-family: var(--logo-font);
+}
+
+.nav-link {
+  color: var(--accent-color);
+  font-family: var(--main-font);
+}
+
+.header-container {
+  width: 933px;
+  height: 39px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  width: 480px;
+  height: 13px;
+  align-items: inherit;
+  display: flex;
+  gap: 9.99px;
+}
